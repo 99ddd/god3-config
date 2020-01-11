@@ -1,4 +1,4 @@
-package god3_core_config
+package config
 
 import (
 	"github.com/99ddd/god3-core-config/storage"
