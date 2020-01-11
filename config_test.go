@@ -11,7 +11,7 @@ func TestConfig_CreateDatabaseList(t *testing.T) {
 
 	cfg.Databases = make(storage.DatabaseList)
 	cfg.Databases.MakeDefault(storage.Database{
-		Driver: storage.DBDriverMysql,
+		Driver:       storage.DBDriverMysql,
 		Host:         "127.0.0.1",
 		Port:         "3306",
 		User:         "root",

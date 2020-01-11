@@ -11,11 +11,11 @@ func main() {
 
 	dbList := make(god3CfgStorage.DatabaseList)
 	dbList.MakeDefault(god3CfgStorage.Database{
-		Driver: god3CfgStorage.DBDriverMysql,
-		Host: "127.0.0.1",
-		Port: "3306",
-		User: "root",
-		Pwd: "password",
+		Driver:       god3CfgStorage.DBDriverMysql,
+		Host:         "127.0.0.1",
+		Port:         "3306",
+		User:         "root",
+		Pwd:          "password",
 		DatabaseName: "dbName",
 	})
 

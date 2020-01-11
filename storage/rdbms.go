@@ -27,13 +27,13 @@ type Database struct {
 }
 
 const (
-	// DriverMysql is a const value of mysql driver.
+	// DBDriverMysql is a const value of mysql driver.
 	DBDriverMysql = "mysql"
-	// DriverSqlite is a const value of sqlite driver.
+	// DBDriverSqlite is a const value of sqlite driver.
 	DBDriverSqlite = "sqlite"
-	// DriverPostgresql is a const value of postgresql driver.
+	// DBDriverPostgresql is a const value of postgresql driver.
 	DBDriverPostgresql = "postgresql"
-	// DriverMssql is a const value of mssql driver.
+	// DBDriverMssql is a const value of mssql driver.
 	DBDriverMssql = "mssql"
 )
 
