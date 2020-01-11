@@ -1,7 +1,7 @@
-package god3_config
+package god3_core_config
 
 import (
-	"github.com/99ddd/god3-config/storage"
+	"github.com/99ddd/god3-core-config/storage"
 )
 
 // Config type is the global config of god3 application. It will be

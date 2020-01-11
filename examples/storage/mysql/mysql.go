@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	god3CfgStorage "github.com/99ddd/god3-config/storage"
+	god3CfgStorage "github.com/99ddd/god3-core-config/storage"
 	"os"
 )
 

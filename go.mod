@@ -1,4 +1,4 @@
-module github.com/99ddd/god3-config
+module github.com/99ddd/god3-core-config
 
 go 1.13
 
