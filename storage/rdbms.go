@@ -50,7 +50,7 @@ func (d DatabaseList) Add(key string, db Database) {
 	d[key] = db
 }
 
-// Add a default database config
+// MakeDefault a default database config
 func (d DatabaseList) MakeDefault(db Database) {
 	d.Add("default", db)
 }
