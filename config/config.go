@@ -14,4 +14,17 @@ type Config struct {
 	// element of Databases is the default connection. See the
 	// file connection.go.
 	Databases storage.DatabaseList `json:"database",yaml:"database",ini:"database"`
+
+	// Used to set as the localize language which show in the
+	// interface.
+	Language string `json:"language",yaml:"language",ini:"language"`
+}
+
+var (
+	globalCfg Config
+)
+
+// Get gets the config.
+func Get() Config {
+	return globalCfg
 }
